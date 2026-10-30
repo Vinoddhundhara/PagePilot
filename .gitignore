@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production builds
+dist/
+client/dist/
+build/
+client/build/
+
+# Environment and sensitive keys
+.env
+.env.local
+.env.*.local
+server/.env
+client/.env
+
+# Logs and debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Editor and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Archive files
+*.zip
+*.tar.gz
